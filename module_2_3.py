@@ -5,7 +5,10 @@ while per <= len(my_list) - 1:
     per = per + 1
     if list_ > 0:
         print(list_)
+    elif list_ == 0:
         continue
+    else:
+        break
 
 
 
